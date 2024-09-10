@@ -1,18 +1,13 @@
-# Python programming code, creating a simple calculator
 
-# Function for adding two numbers
 def add(num1, num2):
 	return num1 + num2
 
-# Function for subtracting two numbers
 def subtract(num1, num2):
 	return num1 - num2
 
-# Function for multiplying two numbers
 def multiply(num1, num2):
 	return num1 * num2
 
-# Function to dividing two numbers
 def divide(num1, num2):
 	return num1 / num2
 
@@ -22,7 +17,6 @@ print("Select from the following:\n" \
 	"3. Multiplication\n" \
 	"4. Division\n")
 
-# Obtain input from user
 select = int(input("Enter selection: "))
 
 number_1 = int(input("First number: "))
